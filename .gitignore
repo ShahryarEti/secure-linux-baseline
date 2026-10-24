@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.log
+coverage.xml
+.coverage
+test-results/
+.DS_Store
+*.swp
+*~
+
+# Rendered lab bundles can contain operator public keys and local settings.
+lab-output/
+artifacts/
